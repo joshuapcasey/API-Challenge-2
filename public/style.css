@@ -1,1 +1,50 @@
-/*  */
+body{
+    background-image: url("https://developers.giphy.com/branch/master/static/api-c99e353f761d318322c853c03ebcf21b.gif");
+}
+
+.wrapper {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color: whitesmoke; */
+}
+
+.controls {
+    background-color: white;
+    border: 5px solid black;
+    opacity: .6;
+    /* margin: 1%; */
+    font-weight: bold;
+}
+
+.search{
+    background-color: #01ceff;
+    border: 2px solid white;
+}
+
+.submit-btn {
+    margin: 5px;
+    padding-bottom: 0 auto;
+    
+    }
+
+/* .results {
+    margin: 0 auto;
+    width: 1200px;
+} */
+
+/* .gif-box {
+    margin: 0.5rem;
+    display: inline-block;
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+} */
+
+/* img {
+    display: block;
+} */
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
