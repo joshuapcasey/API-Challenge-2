@@ -26,7 +26,7 @@ searchForm.addEventListener('submit', fetchSearch);
 
 function fetchSearch(e) {
     e.preventDefault();
-    urlSearch = `${searchURL}?q=${searchTerm.value}&api_key=${key}&limit=10`; // & vs ? format for api & search query
+    urlSearch = `${searchURL}?q=${searchTerm.value}&api_key=${key}&limit=16`; // & vs ? format for api & search query
      // url = `https://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=$3ADp3XhtKEWggX26S07NqOXbDixK0lZZ&limit=10`; // & vs ? format for api & search query
 
     console.log('URL:', urlSearch);
@@ -51,6 +51,8 @@ function fetchSearch(e) {
         })
         .catch(err => console.log(err))
 }
+
+// FIXME -  add function on button click that removes first child 
 
 
 
@@ -109,4 +111,3 @@ function fetchSearch(e) {
 //         }
 
 // }
-
